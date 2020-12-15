@@ -4,16 +4,17 @@ A simple project to take a website that is out of current standards and moderniz
 
 ## Target Website: 
 The website is severely outdated and has many design issues. I can see that this was done very quickly without any effort in maximizing UX design practices such as simple formatting. Also, many repetitive words are used throughout. The website should be in a single scrollable format rather than multiple pages. 
+<br/>  <br/>  
 ![](targetWebsite.jpg)
-<br/>  
+<br/>  <br/>  <br/>  
 
 ## Modernized Desktop view (work in progress)  
 ![](desktopView.gif)
-<br/>  
+<br/>  <br/>  <br/>  
 
 ## Modernized Mobile view (work in progress)  
 ![](mobileView.gif)
-<br/>  
+<br/>  <br/>  <br/>  
 
 # Installation process  
 To install and view live on your local machine,  
