@@ -11,6 +11,10 @@ The website is severely outdated and has many design issues. I can see that this
 ![](desktopView.gif)
 <br/>  
 
+## Modernized Mobile view (work in progress)  
+![](mobileView.gif)
+<br/>  
+
 # Installation process  
 To install and view live on your local machine,  
 Fork the existing project and install the latest  
