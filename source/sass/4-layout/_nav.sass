@@ -1,0 +1,41 @@
+
+
+.main-nav
+  display: flex
+  margin-top: 35px
+  li
+    list-style: none
+  li:first-child
+    margin-right: auto
+  li:nth-child(n+2)
+     @media only screen and (max-width: 550px)
+       display: none
+  a
+    color: white
+    display: block
+    border-radius: 4px
+    padding: 10px 50px
+    text-decoration: none
+    font-weight: 400
+    text-transform: uppercase
+
+  .logo
+    margin-top: -25px
+    @media only screen and (max-width: 550px)
+      padding-left: 0
+  img
+    height: 100px
+    width: auto
+    margin-top: 0px
+    @media only screen and (max-width: 550px)
+      height: 60px
+
+  .call
+    background: $white
+    color: $flagRed
+    font-weight: 600
+    box-shadow: 0 12px 10px -5px rgba(0,0,0, 0.5)
+
+.menu-btn
+  @media only screen and (min-width: 550px)
+    display: none

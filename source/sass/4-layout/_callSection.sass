@@ -1,0 +1,39 @@
+//Call section
+#call
+  margin-top: 200px
+  @media only screen and (max-width: 550px)
+    margin-top: 200px
+
+.callLayout
+  display: flex
+  align-items: center
+  justify-content: center
+  @media only screen and (max-width: 550px)
+    flex-direction: column
+  #phone
+    max-height: 800px
+    max-width: auto
+    z-index: 2
+    @media only screen and (max-width: 550px)
+      display: none
+
+
+  .callMessage
+    text-align: center
+    img
+      height: 300px
+      width: auto
+      @media only screen and (max-width: 550px)
+        margin: 0
+        height: 200px
+    h1
+      font-weight: 500
+      @media only screen and (max-width: 550px)
+        width: 100%
+        margin-left: auto
+        margin-right: auto
+
+      &:last-child
+       color: $flagRed
+       @media only screen and (max-width: 550px)
+         margin-bottom: 240px

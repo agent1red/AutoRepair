@@ -1,0 +1,130 @@
+#header
+  background: #2D2BC0
+  height: 630px
+  @media only screen and (max-width: 550px)
+    height: 510px
+  position: relative
+  opacity: 100%
+  color: white
+  text-align: center
+  &::after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    background: radial-gradient(ellipse at bottom, rgba(60,59,110,0.44) 7%, rgba(60,59,110,0.72) 36%, rgba(60,59,110,0.8379726890756303) 68%, rgba(60,59,110,1) 100%)
+    opacity: 1
+    z-index: -99
+
+
+  h1,h4
+    color: white
+    margin: 0
+  h1
+    @media only screen and (max-width: 550px)
+      font-size: 35px
+      margin-top: 40px
+
+  h4
+    margin-top: 20px
+    margin-bottom: 60px
+    font-weight: 400
+    @media only screen and (max-width: 550px)
+      margin-top: 40px
+
+
+  article
+    width: 80%
+    margin: 0 auto
+    position: relative
+
+    #paulTruck
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+    img
+      margin-top: 570px
+      height: 400px
+      width: auto
+      @media only screen and (max-width: 550px)
+        margin-top: 520px
+        height: 175px
+        width: auto
+
+
+
+
+
+#brands ul
+  margin-top: 25px
+  @media only screen and (max-width: 550px)
+    margin-top: 15px
+  padding: 20px 0
+  background: white
+  list-style-type: none
+  display: grid
+  grid-template-columns: repeat(4, auto)
+  justify-content: space-around
+  @media only screen and (max-width: 550px)
+    grid-template-columns: repeat(2, auto)
+    align-items: center
+  li svg
+    height: 200px
+    width: 200px
+    @media only screen and (max-width: 550px)
+      height: 100px
+      width: 100px
+  li img
+    width: 100%
+    //Certified section
+#certified
+    color: white
+    h1
+      color: white
+      @media only screen and (max-width: 550px)
+        font-weight: 400
+    ul
+      margin-top: 80px
+      list-style: none
+      display: grid
+      grid-template-columns: repeat(2, auto)
+      @media only screen and (max-width: 550px)
+        grid-template-columns: repeat(1, auto)
+        align-items: start
+        padding-left: 0
+      justify-content: space-between
+      justify-items: center
+      align-items: center
+      li
+        color: white
+        font-size: 32px
+        &:first-child
+          min-height: 300px
+          min-width: 380px
+          @media only screen and (max-width: 550px)
+            min-height: 200px
+            min-width: 200px
+
+        &:last-child
+          width: 50%
+          @media only screen and (max-width: 550px)
+            width: 90%
+            font-size: 24px
+
+
+
+#image-1
+  height: 80vh
+  width: 100%
+  text-align: center
+  background: rgb(43,39,225)
+  background: -moz-linear-gradient(133deg, rgba(43,39,225,0.91) 0%, rgba(59,57,164,0.88) 40%), url(../../assets/img/slide_3.png) no-repeat center
+  background: -webkit-linear-gradient(133deg, rgba(43,39,225,0.91) 0%, rgba(59,57,164,0.88) 40%), url(../../assets/img/slide_3.png) no-repeat center
+  background: linear-gradient(133deg, rgba(43,39,225,0.91) 0%, rgba(59,57,164,0.88) 40%), url(../../assets/img/slide_3.png) no-repeat center
+  background-size: cover
+
+
+//Services section
