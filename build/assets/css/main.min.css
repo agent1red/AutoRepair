@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize * */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 html {
@@ -255,8 +256,26 @@ input[type="button"] {
     background: white;
     border-radius: 10px; }
 
+:root {
+  --star-size: 40px;
+  --star-color: #fff;
+  --star-background: #fc0; }
+
+.stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: inline-block;
+  font-size: var(--star-size);
+  font-family: Times;
+  line-height: 1; }
+  .stars::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
 a {
-  color: #0074D9;
+  color: #302DBA;
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
@@ -564,9 +583,48 @@ hr {
   background: #F6F6F6;
   text-align: center;
   position: relative;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  padding-top: 100px; }
   #testimonials::after {
-    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3); }
+  #testimonials h4.title {
+    padding-bottom: 50px; }
+  #testimonials .card-layout {
+    grid-template-columns: 380px 380px 380px; }
+    @media only screen and (max-width: 550px) {
+      #testimonials .card-layout {
+        grid-template-columns: repeat(1, 300px);
+        grid-template-rows: repeat(3, 500px);
+        grid-gap: 190px; } }
+  #testimonials .front, #testimonials .back {
+    border: 3px solid #EB2D26;
+    border-radius: 10px; }
+    #testimonials .front .circle, #testimonials .back .circle {
+      position: relative;
+      margin: -125px auto;
+      padding: 100px;
+      background: #302DBA;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      color: #fff;
+      line-height: 100px; }
+      #testimonials .front .circle .text_circle, #testimonials .back .circle .text_circle {
+        font-size: 98px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    #testimonials .front .stars, #testimonials .back .stars {
+      margin-top: 150px; }
+    #testimonials .front h4, #testimonials .back h4 {
+      margin: 0 0 20px 0; }
+    #testimonials .front p, #testimonials .back p {
+      font-size: 26px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical; }
 
 .flex-video {
   height: 0;

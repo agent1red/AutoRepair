@@ -3,5 +3,42 @@
   text-align: center
   position: relative
   padding-bottom: 100px
+  padding-top: 100px
   &::after
-    box-shadow: 0 12px 10px -10px rgba(0,0,0, 0.2)
+    box-shadow: 0 12px 10px -10px rgba(0,0,0, .3)
+  h4
+    &.title
+      padding-bottom: 50px
+
+  .card-layout
+    grid-template-columns: 380px 380px 380px
+    @media only screen and (max-width: 550px)
+      grid-template-columns: repeat(1, 300px)
+      grid-template-rows: repeat(3, 500px)
+      grid-gap: 190px
+  .front, .back
+    border: 3px solid $flagRed
+    border-radius: 10px
+    .circle
+      position: relative
+      margin: -125px auto
+      padding: 100px
+      background: $blue
+      border-radius: 50%
+      height: 100px
+      width: 100px
+      color: $white
+      line-height: 100px
+      .text_circle
+        font-size: 98px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+    .stars
+      margin-top: 150px
+    h4
+      margin: 0 0 20px 0
+    p
+     font-size: 26px
+     @include truncateText

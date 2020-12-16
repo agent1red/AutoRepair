@@ -12,3 +12,10 @@
   background: linear-gradient(180deg, rgba(235,45,38,1) 0%, rgba(235,45,38,0.64) 100%)
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eb2d26",endColorstr="#eb2d26",GradientType=1)
   box-shadow: 0 12px 10px -5px rgba(0,0,0, 0.5)
+
+
+@mixin truncateText( $lines-to-show: 5)
+    overflow: hidden
+    display: -webkit-box
+    -webkit-line-clamp: $lines-to-show
+    -webkit-box-orient: vertical
