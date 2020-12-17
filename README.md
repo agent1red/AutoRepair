@@ -10,8 +10,7 @@ The website is severely outdated and has many design issues. I can see that this
 
 ## Approach Taken
 
-Before initial wireframe sketching, I looked at the competition's website design and pulled in some designs to Figma for inspiration. I then created a **low-level  
-mockup design** as well as a style tile frame that has a collection of images, icons, colors, and typography to use. I then created a **high-level design** that I would match  
+Before initial wireframe sketching, I looked at the competition's website design and pulled in some designs to Figma for inspiration. I then created a **low-level mockup design** as well as a style tile frame that has a collection of images, icons, colors, and typography to use. I then created a **high-level design** that I would match  
 with code. 
 
 https://www.figma.com/file/VeKPlrTggvYsqlnOAl1Z0n/Mobile-Repair-Project?node-id=3%3A2
