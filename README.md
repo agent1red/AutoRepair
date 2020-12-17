@@ -1,24 +1,28 @@
 # AutoRepair
  
-A simple project to take a website that is out of current standards and modernize it using HTML and SASS. In this project, I did the initial design in Figma and then translated that into code. 
+A simple project to take a website that is out of current web design standards and modernize it using **HTML** and **SASS**. In this project, I did the initial design in **Figma** and then translated that into code. 
 
 ## Target Website: 
-The website is severely outdated and has many design issues. I can see that this was done very quickly without any effort in maximizing UX design practices such as simple formatting or color branding. Also, many repetitive words are used throughout the document. Other then to phone for an appointment, a call to action isn't present to the user.   There should be in a single scrollable format rather than multiple pages since there is very little information provided about the service. 
+The website is severely outdated and has many design issues. I can see that this was done very quickly without any effort in maximizing UX design practices such as simple formatting or color branding. Also, many repetitive words are used throughout the document. Other then to phone for an appointment, a call to action is not present to the user.  There should be in a single scrollable format rather than multiple pages since there is extraordinarily little information provided about the service. 
 <br/>  <br/>  
 ![](oldWebsite.gif)
 <br/>  <br/>  <br/>  
 
 ## Approach Taken
 
-Before initial wireframe sketching, I took a look at the competition's website design and pulled in some designs to Firgma for inspiration:
+Before initial wireframe sketching, I looked at the competition's website design and pulled in some designs to Figma for inspiration. I then created a **low-level  
+mockup design** as well as a style tile frame that has a collection of images, icons, colors, and typography to use. I then created a **high-level design** that I would match  
+with code. 
 
 https://www.figma.com/file/VeKPlrTggvYsqlnOAl1Z0n/Mobile-Repair-Project?node-id=3%3A2
 
-## Modernized Desktop view (work in progress)  
+<br/>  <br/>  <br/>  
+
+## Modernized Desktop view 
 ![](newWebsite.gif)
 <br/>  <br/>  <br/>  
 
-## Modernized Mobile view (work in progress)  
+## Modernized Mobile view
 ![](newMobile.gif)
 <br/>  <br/>  <br/>  
 
