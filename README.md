@@ -9,7 +9,7 @@ The website is severely outdated and has many design issues. I can see that this
 <br/>  <br/>  <br/>  
 
 ## Modernized Desktop view (work in progress)  
-![](desktopView.gif)
+![](newWebsite.gif)
 <br/>  <br/>  <br/>  
 
 ## Modernized Mobile view (work in progress)  
