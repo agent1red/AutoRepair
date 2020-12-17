@@ -428,7 +428,7 @@ hr {
   grid-template-rows: 500px;
   grid-gap: 150px;
   justify-content: center; }
-  @media (max-width: 1440px) {
+  @media (max-width: 768px) {
     .card-layout {
       grid-template-columns: repeat(1, 300px);
       grid-template-rows: repeat(2, 500px);
@@ -543,12 +543,18 @@ hr {
     .callLayout .callMessage img {
       max-height: 300px;
       width: auto; }
+      @media (max-width: 768px) {
+        .callLayout .callMessage img {
+          max-height: 200px; } }
       @media only screen and (max-width: 550px) {
         .callLayout .callMessage img {
           margin: 0;
           height: 200px; } }
     .callLayout .callMessage h1 {
       font-weight: 500; }
+      @media (max-width: 768px) {
+        .callLayout .callMessage h1 {
+          font-size: 40px; } }
       @media only screen and (max-width: 550px) {
         .callLayout .callMessage h1 {
           width: 100%;
@@ -614,7 +620,7 @@ hr {
         grid-gap: 80px; } }
     @media (max-width: 1024px) {
       #testimonials .card-layout {
-        grid-template-columns: repeat(2, 300px);
+        grid-template-columns: repeat(2, 280px);
         grid-template-rows: repeat(2, 500px);
         padding-bottom: 150px;
         grid-gap: 180px; } }
@@ -652,6 +658,18 @@ hr {
       display: -webkit-box;
       -webkit-line-clamp: 5;
       -webkit-box-orient: vertical; }
+
+#footer {
+  height: 20vh;
+  text-align: center; }
+  #footer p {
+    padding-top: 40px; }
+  #footer ul {
+    display: flex;
+    justify-content: center; }
+    #footer ul li {
+      list-style: none;
+      margin-right: 30px; }
 
 .flex-video {
   height: 0;
@@ -692,7 +710,6 @@ hr {
     opacity: 1;
     z-index: -99; }
   #header .wrapper {
-    border: 1px solid black;
     position: relative; }
   #header h1, #header h4 {
     color: white;
@@ -710,12 +727,8 @@ hr {
         margin-top: 40px; } }
   #header article {
     width: 80%;
-    margin: 0 auto;
-    border: 1px solid blue; }
-    #header article h4 {
-      border: 1px solid yellow; }
+    margin: 0 auto; }
   #header #paulTruck {
-    border: 1px solid green;
     position: absolute;
     top: 75%;
     left: 50%;
@@ -732,14 +745,13 @@ hr {
     @media (max-width: 768px) {
       #header #paulTruck {
         top: 87%; } }
-    @media (max-width: 768px) {
+    @media (max-width: 425) {
       #header #paulTruck {
         top: 90%; } }
-    @media (max-width: 768px) {
+    @media (max-width: 320px) {
       #header #paulTruck {
-        top: 93%; } }
+        top: 99%; } }
     #header #paulTruck img {
-      border: 1px solid red;
       max-height: 500px;
       max-width: 100%; }
 
