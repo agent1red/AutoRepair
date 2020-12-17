@@ -7,27 +7,41 @@
 .callLayout
   display: flex
   align-items: center
+  align-content: center
   justify-content: center
+  @include media("<=LGlaptop")
+    justify-content: space-around
   @media only screen and (max-width: 550px)
     flex-direction: column
   #phone
     max-height: 800px
     max-width: auto
     z-index: 2
+    @include media("<=laptop")
+      max-width: 50%
     @media only screen and (max-width: 550px)
       display: none
 
 
   .callMessage
+    max-height: 800px
+    max-width: auto
     text-align: center
+    padding-bottom: 100px
+    @include media("<=laptop")
+      align-self: flex-start
     img
-      height: 300px
+      max-height: 300px
       width: auto
+      @include media("<=tablet")
+        max-height: 200px
       @media only screen and (max-width: 550px)
         margin: 0
         height: 200px
     h1
       font-weight: 500
+      @include media("<=tablet")
+        font-size: 40px
       @media only screen and (max-width: 550px)
         width: 100%
         margin-left: auto

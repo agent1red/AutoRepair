@@ -1,15 +1,16 @@
 #header
   background: #2D2BC0
-  height: 630px
+  height: 750px
   @media only screen and (max-width: 550px)
-    height: 510px
+    height: 500px
   position: relative
   opacity: 100%
   color: white
   text-align: center
+  width: 100%
   &::after
     content: ''
-    position: absolute 
+    position: absolute
     top: 0
     left: 0
     bottom: 0
@@ -17,7 +18,8 @@
     background: radial-gradient(ellipse at bottom, rgba(60,59,110,0.44) 7%, rgba(60,59,110,0.72) 36%, rgba(60,59,110,0.8379726890756303) 68%, rgba(60,59,110,1) 100%)
     opacity: 1
     z-index: -99
-
+  .wrapper
+    position: relative
 
   h1,h4
     color: white
@@ -38,21 +40,34 @@
   article
     width: 80%
     margin: 0 auto
-    position: relative
+  #paulTruck
+    position: absolute
+    top: 75%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 100%
 
-    #paulTruck
-      position: absolute
-      top: 50%
-      left: 50%
-      transform: translate(-50%, -50%)
+    @include media("<=LGlaptop")
+      top: 75%
+      width: 90%
+    @include media("<=laptop")
+      top: 82%
+      width: 80%
+    @include media("<=tablet")
+      top: 87%
+    @include media("<=LGphone")
+      top: 90%
+    @include media("<=phone")
+      top: 99%
     img
-      margin-top: 570px
-      height: 400px
-      width: auto
-      @media only screen and (max-width: 550px)
-        margin-top: 520px
-        height: 175px
-        width: auto
+      max-height: 500px
+      max-width: 100%
+      // display: flex
+      // flex: 0 0 100vw
+      //width: 100%
+
+
+
 
 
 
