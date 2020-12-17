@@ -3,10 +3,16 @@
 A simple project to take a website that is out of current standards and modernize it using HTML and SASS. In this project, I did the initial design in Figma and then translated that into code. 
 
 ## Target Website: 
-The website is severely outdated and has many design issues. I can see that this was done very quickly without any effort in maximizing UX design practices such as simple formatting. Also, many repetitive words are used throughout. The website should be in a single scrollable format rather than multiple pages. 
+The website is severely outdated and has many design issues. I can see that this was done very quickly without any effort in maximizing UX design practices such as simple formatting or color branding. Also, many repetitive words are used throughout the document. Other then to phone for an appointment, a call to action isn't present to the user.   There should be in a single scrollable format rather than multiple pages since there is very little information provided about the service. 
 <br/>  <br/>  
 ![](oldWebsite.gif)
 <br/>  <br/>  <br/>  
+
+## Approach Taken
+
+Before initial wireframe sketching, I took a look at the competition's website design and pulled in some designs to Firgma for inspiration:
+
+https://www.figma.com/file/VeKPlrTggvYsqlnOAl1Z0n/Mobile-Repair-Project?node-id=3%3A2
 
 ## Modernized Desktop view (work in progress)  
 ![](newWebsite.gif)
