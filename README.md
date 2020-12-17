@@ -14,7 +14,7 @@ Before initial wireframe sketching, I looked at the competition's website design
 with code. 
 <br/>  
 
- <a  href="https://www.figma.com/file/VeKPlrTggvYsqlnOAl1Z0n/Mobile-Repair-Project?node-id=3%3A2" target="_blank" title="Figma Design Document">Figma Design Document</a> 
+ <a target="_blank" href="https://www.figma.com/file/VeKPlrTggvYsqlnOAl1Z0n/Mobile-Repair-Project?node-id=3%3A2" title="Figma Design Document">Figma Design Document</a> 
   
 
 <br/>  <br/>  <br/>  
