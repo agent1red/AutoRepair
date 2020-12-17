@@ -2,7 +2,9 @@
   background: #F6F6F6
   text-align: center
   position: relative
-  padding-bottom: 100px
+  height: 60%
+  @include media("<=LGlaptop")
+    height: 90%
   padding-top: 100px
   &::after
     box-shadow: 0 12px 10px -10px rgba(0,0,0, .3)
@@ -11,8 +13,17 @@
       padding-bottom: 50px
 
   .card-layout
-    grid-template-columns: 380px 380px 380px
-    @media only screen and (max-width: 550px)
+    grid-template-columns: repeat(3, 380px)
+    padding-bottom: 150px
+    @include media("<=LGlaptop")
+      grid-template-columns: repeat(3, 300px)
+      grid-gap: 80px
+    @include media("<=laptop")
+      grid-template-columns: repeat(2, 300px)
+      grid-template-rows: repeat(2, 500px)
+      padding-bottom: 150px
+      grid-gap: 180px
+    @include media("<=tablet")
       grid-template-columns: repeat(1, 300px)
       grid-template-rows: repeat(3, 500px)
       grid-gap: 190px
