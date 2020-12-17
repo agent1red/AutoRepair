@@ -3,7 +3,7 @@
 A simple project to take a website that is out of current web design standards and modernize it using **HTML** and **SASS**. In this project, I did the initial design in **Figma** and then translated that into code. 
 
 ## Target Website: 
-The website is severely outdated and has many design issues. I can see that this was done very quickly without any effort in maximizing UX design practices such as simple formatting or color branding. Also, many repetitive words are used throughout the document. Other than to phone for an appointment, a call to action is not present to the user.  There should be in a single scrollable format rather than multiple pages since there is extraordinarily little information provided about the service. 
+The website is severely outdated and has many design issues. I can see that this was done very quickly without any effort in maximizing UX design practices such as simple formatting or color branding. Also, many repetitive words are used throughout the document. Other than to phone for an appointment, a call to action is not presented to the user.  There should be in a single scrollable format rather than multiple pages since there is extraordinarily little information provided about the service. 
 <br/>  <br/>  
 ![](oldWebsite.gif)
 <br/>  <br/>  <br/>  
