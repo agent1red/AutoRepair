@@ -13,7 +13,7 @@ The website is severely outdated and has many design issues. I can see that this
 <br/>  <br/>  <br/>  
 
 ## Modernized Mobile view (work in progress)  
-![](mobileView.gif)
+![](newMobile.gif)
 <br/>  <br/>  <br/>  
 
 # Installation process  
